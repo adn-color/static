@@ -1,0 +1,127 @@
+html{
+    height:100% !important;
+}
+body {
+    color: #585858;
+    font-size: 12px;
+    padding-top: 42px;
+    height:100% !important;
+
+}
+.container-fluid{
+    min-height: 100% !important;
+    background: url('/images/p/n80.png');
+}
+.jumbotron{
+    padding: 20px !important;
+    background-color: #222222;
+    border-color: #080808;
+    margin-bottom: 0;
+}
+
+.font16{
+    font-size: 16px !important;
+}
+.sidebar {
+    bottom: 0;
+    display: block;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: transparent;
+    position: fixed;
+    top: 51px;
+    z-index: 800;
+    padding-top: 10px;
+}
+.nav-sidebar {
+    margin-left: -20px;
+    margin-right: -21px;
+}
+.nav-sidebar > li > a {
+    font-size:14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #585858;
+}
+.nav > li > a:focus{
+    background: #222 !important;
+}
+.nav > li > a:hover{
+    background: #222 !important;
+}
+.nav-sidebar .active  a {
+    background-color: #428BCA;
+    color: #FFFFFF;
+}
+.main {
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #9a9a9a !important;
+    min-height: 100% !important;
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+.img_tint_view_container{
+    height: 304px;
+    width: 604px;
+
+}
+
+.img_tint_view{
+    min-width: 120px;
+    max-width:600px;
+    min-height:120px;
+    max-height: 300px;
+}
+.tint_table th,td{
+    padding: 2px 10px 2px 10px;
+}
+/*
+.tint_table > tbody > tr:nth-child(2n+1) > td, .tint_table > tbody > tr:nth-child(2n+1) > th{
+    background: #1a1a1a !important;
+}
+.tint_table > tbody > tr > td, .tint_table > tbody > tr > th{
+    background: #0c0c0c !important;
+}
+
+*/
+.hod_1{
+    background: #0c0c0c !important;
+    border: none !important;
+}
+.hod_1 td{
+    border: none !important;
+}
+.hod_2 td{
+    border: none !important;
+}
+.hod_2{
+    border: none !important;
+    background: #1a1a1a !important;
+}
+
+
+.design_adr001{
+    border-radius: 20px;
+    margin: 2px 0 0 0;
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+
+.well {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    border: 0 none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 7px 0 rgba(0, 0, 0, 0.8) inset;
+}
+
+
+ul.ui-autocomplete{
+    max-height: 200px !important;
+    overflow: auto !important;
+}
