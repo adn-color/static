@@ -1,0 +1,84 @@
+.img_nb{
+
+    width: 20px;
+    vertical-align: middle;
+}
+
+
+#search_modele_index ul li a {
+    font-size: 12px;
+}
+.search_button{
+    background: #165f0e;
+    padding: 4px 14px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+.search_button:hover{
+    background: #0f420a;
+}
+.custom-combobox-input {
+    width: 120px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 22px;
+    vertical-align: middle;
+}
+.custom-combobox-toggle{
+    background: #ffffff;
+    display: inline-block !important;
+    width: 20px !important;
+    height: 22px !important;
+    vertical-align: middle;
+    background: url('/images/shop/down-arrow.png') no-repeat white;
+    cursor: pointer;
+}
+.custom-combobox{
+    width: 140px !important;
+    padding: 0 !important;
+    height: 24px !important;
+    position: relative;
+    display: inline-block;
+    font-size: 12px !important;
+}
+.ui-autocomplete{
+    width: 200px;
+}
+select{
+    width: 120px;
+}
+.ui-autocomplete{
+    z-index: 900 !important;
+}
+
+
+#vignette_list{
+
+}
+.vignette_square{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 168px;
+    float: left;
+    margin: 0 5px;
+
+}
+
+.vignette_title{
+    background: url('/images/p/n50.png');
+    text-align: center;
+    vertical-align: middle;
+    line-height: 168px;       /* the same as your div height */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vignette_title:hover{
+    background: url('/images/p/n70.png');
+    border: 1px solid brown;
+}
